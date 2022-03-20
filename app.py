@@ -13,8 +13,6 @@ import pickle
 import os
 import PIL 
 import cv2
-from keras.models import load_model
-
 app = Flask(__name__)
 
 heart = pickle.load(open('heart.pkl', 'rb'))
